@@ -1,0 +1,10 @@
+# version: '3.8'
+
+services:
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html

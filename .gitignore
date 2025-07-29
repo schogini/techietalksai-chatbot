@@ -1,0 +1,143 @@
+# ignore model checkpoints
+model.safetensors
+*.safetensors
+node_modules/
+output_model/
+tokenizer/
+models/
+model/
+cache/
+env/
+venv/
+.venv/
+.virtualenv/
+# Pipenv
+# Pyenv
+*.env
+.env.*
+.env
+# Explicitly include .env.example
+!.env.example
+__pycache__/
+*.py[cod]
+*$py.class
+
+llama.cpp/
+mlx_env/
+cpu_gpu/
+model.safetensors
+# C extensions
+*.so
+*.pth
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.virtualenv/
+
+checkpoint*/
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# Pyenv
+.python-version
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Environment variables files
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+# docker-compose.*.yml
+# Dockerfile*
+.dockerignore
+*.log
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Local settings
+local_settings.py
+
+SherlockJr._10min.mp4
