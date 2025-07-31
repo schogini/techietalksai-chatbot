@@ -71,7 +71,7 @@ pdf_url_kb = PDFUrlKnowledgeBase(
 
 # Create Website knowledge base
 website_kb = WebsiteKnowledgeBase(
-    urls=["https://hook.eu2.make.com/cuohogac9pfagse3jno0r2817c1jb74k?kb_type=text"],
+    urls=["https://blog.schogini.com/html_files/Furniture-Product-Knowledge-Base-RAG-Demo.html"],
     max_links=10,
     # vector_db=PgVector(
     #     table_name="website_documents",

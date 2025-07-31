@@ -1,4 +1,6 @@
 # ignore model checkpoints
+push.sh
+pull.sh
 model.safetensors
 *.safetensors
 node_modules/

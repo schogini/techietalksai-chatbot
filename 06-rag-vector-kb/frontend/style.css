@@ -8,7 +8,7 @@ body {
 
 /* Header and Navigation */
 header {
-    background: #fff;
+    background-image: linear-gradient(to right, #f8f9fa, #e9ecef);
     padding: 1rem 5%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: sticky;
@@ -251,7 +251,7 @@ footer {
 }
 
 .message {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding: 2px 12px;
     border-radius: 10px;
     max-width: 80%;

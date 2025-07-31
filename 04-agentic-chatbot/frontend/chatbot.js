@@ -101,12 +101,23 @@ const Chatbot = {
                 const chunk = decoder.decode(value);
                 const lines = chunk.split('\n\n');
 
+            //     for (const line of lines) {
+            //         if (line.startsWith('data: ')) {
+            //             responseText += line.substring(6);
+            //         }
+            //     }
+            //     botMessageElement.textContent = responseText;
+            // }
+
+                botMessageElement.innerHTML = marked.parse(chunk.substring(6)); //data: 
+                /*
                 for (const line of lines) {
                     if (line.startsWith('data: ')) {
-                        responseText += line.substring(6);
+                        // botMessageElement.textContent += line.substring(6);
+                        botMessageElement.innerHTML = marked.parse(line.substring(6));
                     }
                 }
-                botMessageElement.textContent = responseText;
+                */
             }
         } catch (error) {
             console.error('Error sending message:', error);
