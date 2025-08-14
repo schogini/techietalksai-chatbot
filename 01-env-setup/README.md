@@ -1,21 +1,22 @@
-# Embeddable Chatbot
+# 01-env-setup
 
-This project is a secure, embeddable chatbot with a modern UI, a Python FastAPI backend, and Docker Compose for easy deployment.
+This folder contains a basic setup for a web server using Docker.
 
-## Prerequisites
+## Files
 
-- Docker
-- Docker Compose
-- A Google API Key for Gemini
+- `docker-compose.yml`: This file defines the services, networks, and volumes for a Docker application. It sets up a `frontend` service using an Nginx image and maps port 8080 on the host to port 80 in the container.
+- `frontend/index.html`: A simple HTML file that displays a "Hello, World!" message.
 
-## Getting Started
+## How to run
 
-1.  **Clone the repository:**
-    ```bash
-    git clone <repository-url>
-    cd <repository-directory>
-    ```
+To run this project, you need to have Docker and Docker Compose installed. Then, you can run the following command in the `01-env-setup` directory:
 
-## How it works
+```bash
+docker-compose up
+```
 
-The frontend serves a static HTML page The entire application is containerized using Docker and can be run with a single `docker-compose` command.
+This will start a web server on port 8080. You can access the "Hello, World!" page by navigating to `http://localhost:8080` in your web browser.
+
+---
+
+For AI development and consultancy, please contact us at [https://www.schogini.com](https://www.schogini.com).
